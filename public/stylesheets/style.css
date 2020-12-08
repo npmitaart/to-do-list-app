@@ -35,10 +35,10 @@ body{
 
 .to-do-header input{
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     border: none;
     border-radius: 5px;
-    height: 30px;
+    height: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -50,7 +50,7 @@ body{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    padding: 15px;
+    padding: 12px;
     width: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(51, 212, 100);
