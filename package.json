@@ -20,6 +20,7 @@
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "mangodb": "^1.0.0",
     "mongoose": "^5.11.5"
   },
   "devDependencies": {
