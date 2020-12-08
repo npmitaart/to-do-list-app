@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="/static/stylesheets/style.css" type="text/css">
+
+    
+</head>
+<body>
+    <div class="main-container">
+        <h2>To-Do List</h2>
+        <div class="to-do">
+            <form action="/" method="POST" class="to-do-header">
+                <input type="text" name="content">
+                <button type="submit">
+                    <span class="fas fa-plus"><h3>Add to list</h3></span>
+                </button>
+            </form>
+
+            <ul class="to-do-list">
+                <li class="to-do-list-item">
+                    <div class="to-do-list-item-name">Some text</div>
+                    <a href="" class="edit">
+                        <span class="fas fa-edit"></span>
+                    </a>
+                    <a href="" class="remove">
+                        <span class="fas fa-times"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
