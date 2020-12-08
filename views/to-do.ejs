@@ -19,15 +19,17 @@
             </form>
 
             <ul class="to-do-list">
-                <li class="to-do-list-item">
-                    <div class="to-do-list-item-name">Some text</div>
-                    <a href="" class="edit">
-                        <span class="fas fa-edit">Edit</span>
-                    </a>
-                    <a href="" class="remove">
-                        <span class="fas fa-times">Remove</span>
-                    </a>
-                </li>
+                <% todoTasks.forEach(details => { %>
+                    <li class="to-do-list-item">
+                        <div class="to-do-list-item-name"><%= details.content %></div>
+                        <a href="/edit/<%= details._id %>" class="edit">
+                            <span class="fas fa-edit">Edit</span>
+                        </a>
+                        <a href="/remove/<%= details._id %>" class="remove">
+                            <span class="fas fa-times">Remove</span>
+                        </a>
+                    </li>
+                <% }) %>
             </ul>
         </div>
     </div>
